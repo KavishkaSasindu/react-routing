@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-1 {
+    @apply bg-slate-200 px-4 py-2 rounded-md shadow-lg hover:text-white hover:bg-red-600 transition-all hover:scale-110 duration-300;
+  }
+}
